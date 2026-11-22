@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../xsd/devices.xsd">
+
+    <Device id="dev-001">
+        <Name>Logitech MX Keys</Name>
+        <Origin>Switzerland</Origin>
+        <Price>3499.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>5</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+            <Ports>
+                <Port>USB</Port>
+            </Ports>
+        </Type>
+        <Critical>true</Critical>
+    </Device>
+
+    <Device id="dev-002">
+        <Name>Razer DeathAdder V2</Name>
+        <Origin>China</Origin>
+        <Price>1799.50</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>2</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+            <Ports>
+                <Port>USB</Port>
+            </Ports>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+
+    <Device id="dev-003">
+        <Name>ASUS GeForce RTX 4060</Name>
+        <Origin>Taiwan</Origin>
+        <Price>16999.00</Price>
+        <Type>
+            <Peripheral>false</Peripheral>
+            <EnergyConsumption>115</EnergyConsumption>
+            <Cooler>true</Cooler>
+            <Group>multimedia</Group>
+        </Type>
+        <Critical>true</Critical>
+    </Device>
+
+    <Device id="dev-004">
+        <Name>Sound BlasterX G6</Name>
+        <Origin>Singapore</Origin>
+        <Price>5199.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>10</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>multimedia</Group>
+            <Ports>
+                <Port>USB</Port>
+            </Ports>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+
+    <Device id="dev-005">
+        <Name>Logitech C920 HD Pro</Name>
+        <Origin>Switzerland</Origin>
+        <Price>3299.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>3</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>multimedia</Group>
+            <Ports>
+                <Port>USB</Port>
+            </Ports>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+
+    <Device id="dev-006">
+        <Name>StartTech Multi I/O Card</Name>
+        <Origin>China</Origin>
+        <Price>899.00</Price>
+        <Type>
+            <Peripheral>false</Peripheral>
+            <EnergyConsumption>15</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+            <Ports>
+                <Port>COM</Port>
+                <Port>USB</Port>
+                <Port>LPT</Port>
+            </Ports>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+</Devices>
