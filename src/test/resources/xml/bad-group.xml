@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+    <Device id="dev-001">
+        <Name>Mystery device</Name>
+        <Origin>Nowhere</Origin>
+        <Price>10.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>5</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>unknown</Group>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+</Devices>
