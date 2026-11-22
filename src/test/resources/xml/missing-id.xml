@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+    <Device>
+        <Name>Mouse</Name>
+        <Origin>China</Origin>
+        <Price>100.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>2</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+</Devices>

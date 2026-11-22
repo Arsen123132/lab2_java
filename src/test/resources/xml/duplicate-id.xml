@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+    <Device id="dev-001">
+        <Name>Mouse</Name>
+        <Origin>China</Origin>
+        <Price>100.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>2</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+    <Device id="dev-001">
+        <Name>Keyboard</Name>
+        <Origin>China</Origin>
+        <Price>200.00</Price>
+        <Type>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>5</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>input-output</Group>
+        </Type>
+        <Critical>false</Critical>
+    </Device>
+</Devices>
