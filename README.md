@@ -33,19 +33,21 @@ src/test/java/ua/lab2/devices/   unit-тести
 ## Збірка і тести
 
 ```bash
-mvn clean test
+mvn clean verify
 ```
 
-Звіт про покриття коду тестами: `target/site/jacoco/index.html`.
+Команда запускає тести й перевіряє, що покриття коду становить 100%.
+Звіт: `target/site/jacoco/index.html`.
 
 ## Запуск
 
 ```bash
-mvn compile exec:java -Dexec.mainClass=ua.lab2.devices.Main
+mvn compile exec:java
 ```
 
-Результат перетворення зберігається в каталозі `output/`, логи пишуться в `logs/app.log`.
-
+Шляхи до файлів налаштовуються в `src/main/resources/app.properties`.
+Результат перетворення зберігається в `output/devices-by-group.xml`,
+логи пишуться в `logs/app.log`.
 ## Стек
 
 Java 17, Maven, JUnit 5, Mockito, Log4j2, JaCoCo.
